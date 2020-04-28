@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+{% block content%}
+
+<script type="text/javascript" src= {{ cdn_js | safe}} ></script>
+
+<div class = "plot">
+    <h1>Google Stock Analysis before and after COVID-19</h1>
+</div>
+
+{{script | safe}}
+{{div | safe}}
+
+{%endblock%}
